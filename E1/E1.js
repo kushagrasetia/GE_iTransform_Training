@@ -10,7 +10,7 @@ let obj2 = new Rectangle(8, 9);
 console.log(obj1.width);
 console.log(obj1.height);
 console.log(obj2.width);
-console.log(obj2.height);
+console.log(obj2.height);//will console height of rectange 2 : 9
 
 Rectangle.prototype.getArea = function() {
     return this.width * this.height;
